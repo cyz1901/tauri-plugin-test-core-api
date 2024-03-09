@@ -4,6 +4,10 @@ interface PingRequest {
   value?: string;
 }
 
+interface PingResponse {
+  value?: string;
+}
+
 export async function execute() {
   await invoke('plugin:test-core|execute')
 }
