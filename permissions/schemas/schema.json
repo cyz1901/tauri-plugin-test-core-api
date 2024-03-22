@@ -295,34 +295,6 @@
       "type": "string",
       "oneOf": [
         {
-          "description": "allow-execute -> Enables the execute command without any pre-configured scope.",
-          "type": "string",
-          "enum": [
-            "allow-execute"
-          ]
-        },
-        {
-          "description": "deny-execute -> Denies the execute command without any pre-configured scope.",
-          "type": "string",
-          "enum": [
-            "deny-execute"
-          ]
-        },
-        {
-          "description": "allow-ping -> Enables the ping command without any pre-configured scope.",
-          "type": "string",
-          "enum": [
-            "allow-ping"
-          ]
-        },
-        {
-          "description": "deny-ping -> Denies the ping command without any pre-configured scope.",
-          "type": "string",
-          "enum": [
-            "deny-ping"
-          ]
-        },
-        {
           "description": "allow-trigger -> Enables the trigger command without any pre-configured scope.",
           "type": "string",
           "enum": [
