@@ -321,6 +321,20 @@
           "enum": [
             "deny-ping"
           ]
+        },
+        {
+          "description": "allow-trigger -> Enables the trigger command without any pre-configured scope.",
+          "type": "string",
+          "enum": [
+            "allow-trigger"
+          ]
+        },
+        {
+          "description": "deny-trigger -> Denies the trigger command without any pre-configured scope.",
+          "type": "string",
+          "enum": [
+            "deny-trigger"
+          ]
         }
       ]
     }

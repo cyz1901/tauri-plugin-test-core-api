@@ -4,3 +4,5 @@
 |`deny-execute`|Denies the execute command without any pre-configured scope.|
 |`allow-ping`|Enables the ping command without any pre-configured scope.|
 |`deny-ping`|Denies the ping command without any pre-configured scope.|
+|`allow-trigger`|Enables the trigger command without any pre-configured scope.|
+|`deny-trigger`|Denies the trigger command without any pre-configured scope.|

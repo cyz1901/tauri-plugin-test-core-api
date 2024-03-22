@@ -1,6 +1,6 @@
 {
   "name": "tauri-plugin-test-core-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "cyz1901",
   "description": "",
   "browser": "webview-dist/index.js",

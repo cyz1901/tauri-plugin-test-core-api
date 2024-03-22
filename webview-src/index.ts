@@ -15,3 +15,8 @@ export async function execute() {
 export async function ping(payload: PingRequest) {
   await invoke('plugin:test-core|ping')
 }
+
+export async function trigger(value: string) {
+  console.log("[tauri-plugin-haptics] triggered");
+  await invoke('plugin:test-core|trigger', { value })
+}

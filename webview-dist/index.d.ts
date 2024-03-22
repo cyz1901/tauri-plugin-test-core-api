@@ -1,11 +1,2 @@
-interface PingRequest {
-    value?: string;
-}
+export declare function trigger(value: string): Promise<unknown>;
 
-interface PingResponse {
-    value?: string;
-}
-
-export declare function execute(): Promise<void>;
-export declare function ping(payload: PingRequest): Promise<PingResponse>;
-export { };

@@ -1,6 +1,6 @@
 [package]
 name = "tauri-plugin-test-core"
-version = "0.0.0"
+version = "0.0.1"
 authors = [ "cyz1901" ]
 description = ""
 edition = "2021"
@@ -9,7 +9,7 @@ exclude = ["/examples", "/webview-dist", "/webview-src", "/node_modules"]
 links = "tauri-plugin-test-core"
 
 [dependencies]
-tauri = { version = "2.0.0-beta.10" }
+tauri = { version = "2.0.0-beta.11" }
 serde = "1.0"
 thiserror = "1.0"
 
